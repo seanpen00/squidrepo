@@ -1,0 +1,26 @@
+.cont {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.countdown {
+    height: 100px;
+    border-radius: 20px;
+    border: white 5px solid;
+}
+
+.linkpic {
+    height: 50px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    .countdown {
+        height: 30px;
+    }
+}

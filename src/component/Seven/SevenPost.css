@@ -1,0 +1,24 @@
+.hart{
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.sevenpost-control-red{
+    margin-top: 0;
+    font-size: 50px;
+    color:#249F9C;
+}
+
+.sevenpost-control-paragraph{
+    margin-bottom: 48;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(79,79,79,var(--tw-text-opacity));
+}
+
+@media only screen and (max-width: 600px) {
+    .hart{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,39 @@
+.loadmap-item-control {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: stretch;
+}
+
+.loadmap-item-leftbar {
+    padding: 20px;
+    background-color: black;
+    flex: 18;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.loadmap-item-rightbar {
+    background-color: white;
+    flex: 82;
+    padding: 25px;
+    border: 2px solid black;
+}
+
+.loadmap-item-rightbar header {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+.loadmap-item-rightbar summary p {
+    font-size: 18px;
+    line-height: 24px;
+    color: gray;
+}

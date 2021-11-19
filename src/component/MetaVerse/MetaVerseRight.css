@@ -1,0 +1,50 @@
+.metaverse-right-control{
+    padding-left: 20px;
+}
+
+.metaverse-right-control h3{
+    margin-bottom: 24px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.metaverse-right-control p{
+    margin-bottom: 48px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(79,79,79,var(--tw-text-opacity));
+}
+
+.nameTitle {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .metaverse-right-control h3{
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 10px;
+    }
+
+    .nameTitle {
+        font-size: 0px;
+    }
+    
+    .metaverse-right-control p{
+        font-size: 0px;
+    }
+
+    .metaverse-right-control h3{
+        font-size: 0px;
+    }
+    .metaverse-right-control h3{
+        font-size: 0px;
+    }
+
+    .metaverse-right-control img{
+        width: 0px;
+        height: 0px;
+    }
+}

@@ -1,0 +1,76 @@
+.metaverse-control{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.metaverse-control-title{
+    font-size: 60px;
+}
+
+.metaverse-control-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.metaverse-control-left{
+    flex: 30;
+    padding: 20px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.metaverse-control-right{
+    flex: 70;
+    padding: 20px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.metaverse-control-image{
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .metaverse-control-title{
+        padding: 10px;
+        font-size: 40px;
+    }
+    .metaverse-control-left{
+        flex: 30;
+        padding: 0px;
+        padding-left: 20px;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .metaverse-control-right{
+        flex: 70;
+        padding: 0;
+        padding-right: 20px;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .metaverse-control-image{
+        width: 100%;
+        height: 80%;
+    }
+}

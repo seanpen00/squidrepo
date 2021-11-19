@@ -1,0 +1,28 @@
+.toknow-control{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: black;
+}
+.toknow-control-left{
+    padding: 20px;
+    flex: 55;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.toknow-control-right{
+    padding: 20px;
+    flex: 45;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
